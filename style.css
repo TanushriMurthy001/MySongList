@@ -1,0 +1,116 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+    border: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    border: solid;
+    border-color: black;
+    border-width: 0.1cm;
+}
+.menu{
+    margin-left: 1070px;
+    
+}
+
+
+body{
+    background-color: white;
+}
+
+
+.Im{
+    margin-top: 70px;
+   margin-left: 40px;
+}
+
+.grid img{
+    border:3px solid black;
+    border-radius: 25%;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Back p{
+    position :absolute;
+    top : 12%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    color: black;
+    font-style: italic;
+}
+
+.Im {
+    position:relative;
+}
+.Im p{
+    position: absolute;
+    top:25%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Im:hover p{
+opacity: 1;
+}
+.Im:hover img{
+opacity: 0.4;
+}
+
+.best{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.best img{
+    border:3px solid black;
+    border-radius: 25%;
+}
+
+.IM{
+    margin-top: 70px;
+   margin-left: 40px;
+}
+
+.IM {
+    position:relative;
+}
+
+.IM:hover img{
+opacity: 0.4;
+}
+
+.kpop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.kpop img{
+    border:3px solid black;
+    border-radius: 25%;
+}
+
+.Kpop{
+    margin-top: 70px;
+   margin-left: 40px;
+}
+
+.Kpop {
+    position:relative;
+}
+
+.Kpop:hover img{
+opacity: 0.4;
+}
